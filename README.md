@@ -1,5 +1,6 @@
 # diff-coverage
-对jacoco覆盖率报告进行修改，添加增量覆盖率
+对jacoco覆盖率报告进行修改，添加增量覆盖率<br/>
+推荐python 3.8版本和jacoco 0.8.5<br/>
 
 # 结果示例
 首页表格最后添加增量覆盖率比例<br/>
