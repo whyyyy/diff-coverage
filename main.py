@@ -26,9 +26,9 @@ def main(argv):
     processor.process_diff()
 
     # 拷贝 css 和图片资源
-    shutil.copy('diff.gif', os.path.join(opts.dir, "target/site/jacoco/jacoco-resources"))
-    shutil.copy('cdiff.gif', os.path.join(opts.dir, "target/site/jacoco/jacoco-resources"))
-    shutil.copy('report.css', os.path.join(opts.dir, "target/site/jacoco/jacoco-resources"))
+    shutil.copy('diff.gif', os.path.join(opts.report_dir))
+    shutil.copy('cdiff.gif', os.path.join(opts.report_dir))
+    shutil.copy('report.css', os.path.join(opts.report_dir))
 
     return 0
 
