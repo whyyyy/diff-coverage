@@ -1,4 +1,4 @@
 -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
 gitdb===4.0.4
-gitpython==3.1.1
+gitpython==3.1.32
 smmap==3.0.2
